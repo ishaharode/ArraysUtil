@@ -19,5 +19,8 @@ public class Main {
 
         System.out.println(K+"th Largest="+KthLargest);
 
+        //Contains Duplicate
+        boolean duplicate= ContainsDuplicate.containsDuplicate(array);
+        System.out.println("array contains the duplicate elements = "+duplicate);
     }
 }
