@@ -1,4 +1,5 @@
 package Com.utils;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -28,6 +29,14 @@ public class Main {
         //Find disappeared Numbers in Array
         List<Integer> disappearedNumbers= findDisappearedNumbers.findDisappearedNumbersinArray(array);
         System.out.println("number disappeared in the range of [1,n] ="+disappearedNumbers);
+
+        //remove elements
+        List<Integer> arr = new ArrayList<Integer>();
+        for(int i=0;i<=20;i++)
+        {
+            arr.add(i);
+        }
+        RemovingOddElements.removeOddElementfromArray(arr);
 
     }
 }
