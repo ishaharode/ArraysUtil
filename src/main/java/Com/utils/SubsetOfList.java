@@ -1,3 +1,5 @@
+package Com.utils;
+
 public class SubsetOfList {
 
     public static List<Integer> subsetA(List<Integer> arr) {
